@@ -15,6 +15,14 @@
         status = "okay";
     };
 
+    encoder_2: encoder_2 {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "okay";
+    };
+
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-demux";
         polling-interval-msec = <25>;
