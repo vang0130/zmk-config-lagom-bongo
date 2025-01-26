@@ -17,14 +17,15 @@
 #       import: app/west.yml
 #   self:
 #     path: config
-
 manifest:
   remotes:
-    - name: bgl314
-      url-base: https://github.com/bgl314
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: nvhung9
+      url-base: https://github.com/nvhung9
   projects:
     - name: zmk
-      remote: bgl314
+      remote: nvhung9
       revision: main
       import: app/west.yml
   self:
