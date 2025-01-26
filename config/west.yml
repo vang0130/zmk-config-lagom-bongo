@@ -13,7 +13,7 @@ manifest:
     #   import: app/west.yml
     - name: zmk
       remote: Deemen17
-      revision: display/bongo-cat-widget
+      revision: main
       import: app/west.yml
   self:
     path: config
