@@ -20,11 +20,11 @@
 
 manifest:
   remotes:
-    - name: urob
-      url-base: https://github.com/urob
+    - name: bgl314
+      url-base: https://github.com/bgl314
   projects:
     - name: zmk
-      remote: urob
+      remote: bgl314
       revision: main
       import: app/west.yml
   self:
