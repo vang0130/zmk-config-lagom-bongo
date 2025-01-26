@@ -30,4 +30,7 @@ endchoice
 
 endif # LVGL
 
+config ZMK_DISPLAY
+    select LV_USE_LABEL
+    select LV_USE_IMG
 endif
