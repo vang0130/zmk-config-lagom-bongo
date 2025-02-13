@@ -39,9 +39,9 @@ choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 endchoice
 
+config LV_USE_LABEL
+    default y
+
 endif # LVGL
 
-config ZMK_DISPLAY
-    select LV_USE_LABEL
-    select LV_USE_IMG
-endif
+endif # SHIELD_RADIANCE
